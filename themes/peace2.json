@@ -1,0 +1,77 @@
+{
+    "name": "peace2",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#000000",
+        "editor.foreground": "#839496",
+        "editor.lineHighlightBackground": "#00181f",
+        "editor.selectionBackground": "#00181f",
+        
+        "activityBar.background": "#000000",
+        "activityBar.foreground": "#839496",
+        "activityBarBadge.background": "#000000",
+        
+        "sideBar.background": "#000000",
+        "sideBar.foreground": "#839496",
+        "sideBarTitle.foreground": "#BBBBBB",
+        
+        "statusBar.background": "#000000",
+        "statusBar.foreground": "#FFFFFF",
+        "statusBar.noFolderBackground": "#000000",
+        
+        "titleBar.activeBackground": "#000000",
+        "titleBar.activeForeground": "#839496",
+        
+        "tab.activeBackground": "#000000",
+        "tab.inactiveBackground": "#0d0d0d",
+        "tab.activeForeground": "#FFFFFF",
+        "tab.inactiveForeground": "#999999",
+		"editorGroupHeader.tabsBackground":"#000000",
+		"tab.border":"#1e1e1e"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "foreground": "#0f5f77"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": ["string", "string.quoted"],
+            "settings": {
+                "foreground": "#A2734C"
+            }
+        },
+		{
+            "name": "Keywords",
+            "scope": ["keyword", "storage.type", "storage.modifier"],
+            "settings": {
+                "foreground": "#d7dfe0",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": ["entity.name.function", "support.function"],
+            "settings": {
+                "foreground": "#F66151"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": ["variable", "support.variable"],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Classes",
+            "scope": ["entity.name.type", "entity.name.class", "entity.name.namespace"],
+            "settings": {
+                "foreground": "#A347BA"
+            }
+        }
+    ]
+}

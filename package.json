@@ -1,0 +1,47 @@
+{
+  "name": "peace2",
+  "displayName": "peace2",
+  "description": "peace2 is a theme for developers eye health. Pure black.",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "publisher": "TheAliAhad",
+  "repository": {
+    "url": "https://github.com/aliahadmd/peace2"
+  },
+  "icon": "img/vsc.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "python",
+    "semantic",
+    "highlighting",
+    "cold",
+    "dark",
+    "darcula",
+    "darkula",
+    "dracula",
+    "drakula",
+    "pycharm",
+    "IntelliJ",
+    "New UI",
+    "icons",
+    "JetBrains",
+    "JetBrains Mono",
+    "PyCharm",
+    "font",
+    "Javascript",
+    "TypeScript"
+],
+  "contributes": {
+    "themes": [
+      {
+        "label": "peace2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peace2.json"
+      }
+    ]
+  }
+}
