@@ -2,7 +2,7 @@
   "name": "peace2",
   "displayName": "peace2",
   "description": "peace2 is a theme for developers eye health. Pure black.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.95.0"
   },
